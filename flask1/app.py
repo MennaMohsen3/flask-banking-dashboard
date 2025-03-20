@@ -16,4 +16,4 @@ def dashboard():
     return render_template("index.html", data=df.to_dict(orient="records"))
 
 if __name__ == "__main__":
-    app.run(port=5000, debug=True)
+    app.run(port=5000)
